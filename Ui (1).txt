@@ -1525,7 +1525,7 @@ function Library:CreateWindow(Setting)
              ClickArea_1.Name = "ClickArea"
              ClickArea_1.Parent = RowBG_1
              ClickArea_1.AnchorPoint = Vector2.new(1, 0.5)
-             ClickArea_1.BackgroundColor3 = Color3.fromRGB(235, 200, 100)
+             ClickArea_1.BackgroundColor3 = Color3.fromRGB(222, 205, 160)
              ClickArea_1.Position = UDim2.new(1, -8,0.5, 0)
              ClickArea_1.Size = UDim2.new(0, 94,0, 30)
              ClickArea_1.ClipsDescendants = true  -- THÊM DÒNG NÀY: Ngăn ripple tràn ra
@@ -1535,10 +1535,10 @@ function Library:CreateWindow(Setting)
              
              UIGradient_1.Parent = ClickArea_1
              UIGradient_1.Color = ColorSequence.new{
-                 ColorSequenceKeypoint.new(0, Color3.fromRGB(235, 200, 100)), 
-                 ColorSequenceKeypoint.new(0.4, Color3.fromRGB(245, 215, 130)), 
-                 ColorSequenceKeypoint.new(0.6, Color3.fromRGB(210, 170, 70)), 
-                 ColorSequenceKeypoint.new(1, Color3.fromRGB(212, 175, 85))
+                 ColorSequenceKeypoint.new(0, Color3.fromRGB(222, 205, 160)), 
+                 ColorSequenceKeypoint.new(0.4, Color3.fromRGB(235, 220, 180)), 
+                 ColorSequenceKeypoint.new(0.6, Color3.fromRGB(190, 170, 120)), 
+                 ColorSequenceKeypoint.new(1, Color3.fromRGB(222, 205, 160))
              }
              UIGradient_1.Rotation = 90
              
